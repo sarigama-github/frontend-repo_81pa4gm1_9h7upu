@@ -1,6 +1,5 @@
 export default {
-    plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-    },
+  plugins: {
+    // Using Tailwind via CDN to avoid PostCSS plugin issues in this environment
+  },
 }
